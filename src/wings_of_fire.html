@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wings of fire</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- cdn links -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        .main_container {
+
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 8%;
+
+
+        }
+
+        .main {
+            margin: 0% 15% 0% 15%;
+            /* background-color: grey; */
+            border-radius: 2%;
+            padding-top: 3%;
+            background: linear-gradient(to bottom,#91f7f2, #e7d8cc,#ec7f7b );
+
+
+        }
+
+        a {
+            text-decoration: none;
+
+
+        }
+
+        button {
+
+            margin: -1% 0% -1% 0%
+        }
+
+        .form {
+
+            margin: 5% 25% 0% 25%;
+            width: 50%;
+            background-color: rgb(232, 234, 238);
+
+
+        
+        }
+        
+        body {
+    
+    
+            background: linear-gradient(270deg, #5a7394, #94aec4, #c1cbd8);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.homebutton:hover{
+    background-color:green;
+}
+
+    </style>
+
+</head>
+
+<body class="container-fluid mx-0 p-0">
+    <header class="w-100 text-white fs-4 fw-bold p-2 mt-1 mb-2 rounded-2" style="text-align: center ; background: linear-gradient(270deg, #2c3e50, #34495e, #566f8c)">BOOK SHOWCASE :
+        WINGS OF FIRE DETAILS
+    </header>
+
+    <!-- home -->
+
+
+    <div class="fs-5 fw-bold p-2 mb-3 text-end">
+        <a href="sem1_project.html" class=" homebutton btn btn-lg btn-primary border border-2 text-white text-decoration-none">Home</a>
+    </div>
+    
+
+
+    <div class="main">
+        <div class="container  p-3">
+            <div class="row text-center">
+                <!-- Book Image -->
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img src="../public/images/wings.jpg" alt="Wings of Fire Book Cover" 
+                        class="rounded-4 img-fluid w-50" style="max-width: 300px;">
+                    <p class="text-black mt-2"><b>Wings of Fire</b></p>
+                </div>
+        
+                <!-- Author Image -->
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img src="../public/images/abdulkalam2.jpeg" alt="Dr. APJ Abdul Kalam" 
+                        class="rounded-4 img-fluid img-thumbnail w-75" style="max-width: 250px;">
+                    <p class="text-black mt-2"><b>Dr. APJ Abdul Kalam</b></p>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+        <div class="pb-5 container-fluid">
+
+            <!-- genre -->
+
+            <div class="container">
+                <p class="d-inline-flex gap-1 w-100">
+                    <button class="btn btn-info mt-1 w-100 text-start d-flex justify-content-between align-items-center"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+                        <span>Genre</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body ">
+                        <ul>
+                            <li>Autobiography</li>
+                            <li>Inspirational / Motivational</li>
+                            <li>Science & Technology</li>
+                            <li>Political & Historical</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Index page -->
+
+            <div class="container">
+                <p class="d-inline-flex gap-1 w-100">
+                    <button class="btn btn-info mt-1 w-100 text-start d-flex justify-content-between align-items-center"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2">
+                        <span>Index Page</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                    <div class="card card-body ">
+                        <ul >
+                            <h6>Preface</h6>
+                            <li>Introduction to the book and its purpose</li>
+                            <h6>SECTION 1: ORIENTATION</h6>
+                            <li>Childhood</li>
+                            <li>Aerospace Engineering</li>
+                            <li>Preparation for Career</li>
+                            <h6>SECTION 2: CREATION</h6>
+                            <li>Working at ISRO</li>
+                            <li>Projects at DRDO</li>
+                            <li>Teamwork and Leadership</li>
+                            <h6>SECTION 3: PROPITIATION</h6>
+                            <li>Agni, Prithvi, and More</li>
+                            <li>Scientific and Technological Growth</li>
+                            <h6>SECTION 4: CONTEMPLATION</h6>
+                            <li>Leadership and Lessons Learned</li>
+                            <li>Dreams for India</li>
+                            <h6>Epilogue</h6>
+                            <li>Final Thoughts</li>
+                            <h6>Appendices</h6>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Authors -->
+
+
+
+            <div class="container">
+                <p class="d-inline-flex gap-1 w-100">
+                    <button class="btn btn-info mt-1 w-100 text-start d-flex justify-content-between align-items-center"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3">
+                        <span>Authors</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample3">
+                    <div class="card card-body ">
+                        <ul class="list-unstyled">
+                            <li> <b>Dr. APJ Abdul Kalam</b> <p> Dr. A.P.J. Abdul Kalam was a visionary scientist, aerospace engineer, and the 11th President of India, known for his dedication to the nation's development. As the "Missile Man of India," he played a key role in advancing India's missile and space programs, contributing to projects like Agni and Prithvi missiles. His leadership at ISRO and DRDO helped strengthen India's defense and technological capabilities. Beyond science, he was a beloved teacher and mentor, inspiring millions of young minds to dream big and serve the country. His legacy continues to inspire generations through his contributions to education, innovation, and national development.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!-- Overview  -->
+
+            <div class="container"> 
+                <p class="d-inline-flex gap-1 w-100">
+                    <button class="btn btn-info mt-1 w-100 text-start d-flex justify-content-between align-items-center"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4">
+                        <span>Overview</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample4">
+                    <div class="card card-body ">
+                        <ul>
+                            <li>
+                                <p>Wings of Fire is the autobiography of Dr. A.P.J. Abdul Kalam, chronicling his journey from a small-town boy in Rameswaram to India's "Missile Man" and later the President. The book highlights his struggles, determination, and contributions to India's space and defense programs. It emphasizes the power of hard work, perseverance, and visionary thinking in achieving success. Through his experiences, Kalam inspires young minds to dream big and contribute to the nation.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!-- Purchase Links -->
+
+
+
+            <div class="container">
+                <p class="d-inline-flex gap-1 w-100">
+                    <button class="btn btn-info mt-1 w-100 text-start d-flex justify-content-between align-items-center"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5">
+                        <span>Purchase Links</span>
+                        <span class="bi bi-chevron-down"></span>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample5">
+                    <div class="card card-body ">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.amazon.in/APJ-Abdul-Kalam-Autobiography-Original/dp/B0BTWB6DJQ"
+                                    target="_blank">Amazon</a>
+                            </li>
+                            <li>
+                                <a href="https://www.flipkart.com/wings-fire-p-j-abdul-kalam/p/itmdb01037c6060e"
+                                    target="_blank">Flipkart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+           
+
+
+            <!-- Feedback form -->
+
+
+            <div class="form border rounded-3 ps-2 pe-2 h-25 pt-2 pb-3">
+
+                <h5 class="mt-2 mb-4">Feedback form</h5>
+                <div class="mb-3 w-100 ">
+                    <label class="form-label fw-bold">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3 w-100">
+                    <label class="form-label fw-bold">Feedback</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Submit Feedback </button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer class=" bg-black text-white   p-2 mt-5  rounded-2" style="text-align: center; background: linear-gradient(270deg, #25313f, #3a4d63, #5a7394)">@ 2025 Book showcase | All
+        rights reserved</footer>
+
+</html>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
